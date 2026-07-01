@@ -15,11 +15,24 @@ Use:
 3. `prompts/free-plan-evaluation.md`
 4. `embed-snippet.html` for website integration
 
-The dashboard remains the evidence layer. The assistant is the action-planning
-layer and does not answer open-ended evidence questions.
+### How the assistant aligns with the website
 
-The published Webchat embed snippet is public configuration and is ready to be
-added to the frontend HTML entry point when the application is built.
+The website carries the evidence and research; the assistant carries interactive
+action planning. The two must not contradict each other:
+
+| Website section | Role | Assistant relationship |
+|-----------------|------|------------------------|
+| **Overview** | Why Wakiso, Mubende, and Kasese were selected (rapid assessment) | Assistant may reference the selection, never restate it as current data |
+| **Dashboard** | Penta1/Penta3, dropout, RED/REC categories | Assistant never calculates or changes these indicators |
+| **Research & Analysis** | AI-assisted synthesis: BeSD barriers, text analysis, strategy | Assistant reuses the same framing (barrier → response); does not invent new evidence |
+| **Outreach** | Deterministic reviewed campaign template | Assistant produces the same kind of labelled, review-only draft |
+| **Evidence** | Source register and safeguards | Assistant names sources and gives the safe no-answer when unsupported |
+
+The dashboard and research pages remain the evidence layer. The assistant is the
+action-planning layer and does not answer open-ended evidence questions.
+
+The published Webchat embed snippet is public configuration and is already added
+to the frontend HTML entry point (`index.html`); it loads on every page.
 
 ## Optional Future Version: Knowledge-Based Assistant
 
