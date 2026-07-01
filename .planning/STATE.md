@@ -11,8 +11,8 @@ See: .planning/PROJECT.md (updated 2026-07-01)
 
 Phase: 4 of 4 (Presentation-Ready Release)  
 Plan: Phases 1–3 built in a working prototype; verification + hardening outstanding  
-Status: Prototype committed; reconciling toward verification and deployment  
-Last activity: 2026-07-01 — Committed working React/Vite prototype (monitoring + outreach + evidence + Botpress embed) and reconciled GSD tracking
+Status: Prototype expanded to a five-section site; verification and deployment outstanding  
+Last activity: 2026-07-01 — Added Overview (why-these-three) and Research & Analysis (AI-assisted synthesis) pages; split App into src/views/* + src/content.ts; aligned Botpress README with the five sections
 
 Progress: [██████░░░░] ~60% (built, pending verification and deployment)
 
@@ -65,6 +65,12 @@ Decisions are logged in PROJECT.md.
   Type-check, unit tests (3/3), and production build all pass.
 - GitHub Pages deployment is scaffolded: `.github/workflows/deploy.yml` and a
   Pages-ready `base` path in `vite.config.ts`.
+- The site now has five sections (Overview · Dashboard · Research & Analysis ·
+  Outreach · Evidence). The app was split from a single `App.tsx` into
+  `src/views/*` plus a declarative `src/content.ts` research module. Research
+  content is AI-assisted synthesis of the published sources, clearly labelled
+  and carrying an `ai-assisted` provenance badge. Design in
+  `docs/superpowers/specs/2026-07-01-site-expansion-design.md`.
 
 ### Pending Todos
 
@@ -91,5 +97,5 @@ Decisions are logged in PROJECT.md.
 ## Session Continuity
 
 Last session: 2026-07-01  
-Stopped at: Committed the working prototype baseline (monitoring + outreach + evidence + Botpress embed) and reconciled ROADMAP/STATE/PROJECT to reflect that Phases 1–3 are built and Phase 4 hardening remains. Next: verification, tests, bot safety eval, and confirmed deployment.
+Stopped at: Expanded the site to five sections — added an Overview landing (why Wakiso/Mubende/Kasese were selected) and a Research & Analysis page (AI-assisted synthesis: BeSD barriers, text analysis of the draft scripts, strategy). Refactored into src/views/* + src/content.ts; aligned the Botpress README. tsc/tests/build all pass; preview serves 200. Next: browser visual + accessibility verification, campaign-workflow tests, bot safety eval, confirmed deployment.
 Resume file: None
