@@ -13,9 +13,13 @@ Use:
 1. `FREE-PLAN-GUIDE.md`
 2. `prompts/free-outreach-planner-prompt.txt`
 3. `prompts/free-plan-evaluation.md`
+4. `embed-snippet.html` for website integration
 
 The dashboard remains the evidence layer. The assistant is the action-planning
 layer and does not answer open-ended evidence questions.
+
+The published Webchat embed snippet is public configuration and is ready to be
+added to the frontend HTML entry point when the application is built.
 
 ## Optional Future Version: Knowledge-Based Assistant
 

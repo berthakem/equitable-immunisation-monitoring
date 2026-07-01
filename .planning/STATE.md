@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-07-01)
 Phase: 1 of 4 (Evidence to Priority)  
 Plan: 0 of 2 in current phase  
 Status: Ready to plan  
-Last activity: 2026-07-01 — Botpress knowledge pack, prompt, evaluation set, and publication guide prepared
+Last activity: 2026-07-01 — Free-plan Botpress workflow tested and published embed code received
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -50,6 +50,9 @@ Decisions are logged in PROJECT.md.
 - The free-plan Botpress design uses no Knowledge Base. The website supplies the
   evidence context, and a guided Autonomous Node turns user-confirmed findings
   into English review-only outreach action packages.
+- The guided area-to-barrier conversation passed its initial manual smoke test.
+- The public Botpress Webchat v3.6 embed snippet is stored in
+  `botpress/embed-snippet.html` for frontend integration.
 
 ### Pending Todos
 
@@ -57,8 +60,8 @@ None yet.
 
 ### Blockers/Concerns
 
-- Botpress prompt configuration, testing, publication, and embed-code retrieval
-  remain manual Phase 3 tasks.
+- The full safety evaluation remains to be completed before the public demo.
+- Botpress frontend integration waits for the application HTML entry point.
 - Public report extraction may leave gaps that require synthetic demonstration values.
 - Draft scripts require schedule reconciliation, removal of unapproved Ministry attribution, and Luganda review before any non-demo use.
 
@@ -73,5 +76,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-07-01  
-Stopped at: Botpress handoff prepared; knowledge-base upload is the next manual Botpress task
+Stopped at: Botpress free-plan workflow published; frontend integration is ready once the application shell exists
 Resume file: None
