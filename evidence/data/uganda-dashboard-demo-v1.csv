@@ -1,0 +1,4 @@
+district,period,penta1_pct,penta3_pct,target_children,dropout_pct,red_rec_category,estimated_zero_dose,provenance,context_source
+Wakiso,2025 demonstration period,88,77,12400,12.5,2,1488,synthetic demonstration,https://zdlh.gavi.org/resources/report-rapid-assessment-zero-dose-situation-uganda
+Mubende,2025 demonstration period,68,54,6800,20.6,4,2176,synthetic demonstration,https://zdlh.gavi.org/resources/burden-zero-dose-children-pastoralist-hard-reach-and-underserved-communities-case-study
+Kasese,2025 demonstration period,76,72,8900,5.3,3,2136,synthetic demonstration,https://zdlh.gavi.org/resources/report-rapid-assessment-zero-dose-situation-uganda

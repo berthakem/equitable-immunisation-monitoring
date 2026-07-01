@@ -8,6 +8,23 @@ Nothing in `evidence/drafts/` is approved for public distribution, broadcast, or
 
 ## Included Files
 
+### Evidence and Data Handoff
+
+`EVIDENCE-AND-DATA-HANDOFF.md`
+
+- Consolidates the three-district selection rationale.
+- Identifies published evidence, synthetic dashboard values, calculations, and
+  evidence gaps.
+- Provides the knowledge-resource register and report-generation rules.
+
+### Dashboard Demonstration Data
+
+`data/uganda-dashboard-demo-v1.csv`
+
+- Portable copy of the synthetic values currently used by the prototype.
+- Includes calculated dropout, RED/REC category, and estimated zero-dose values.
+- Must never be presented as current Uganda programme data.
+
 ### Demonstration Draft
 
 `drafts/uganda-immunisation-vht-radio-scripts-en-lg.md`
@@ -54,4 +71,3 @@ Before a message template enters the application:
 - Replace the two-dose HPV statement with the current one-dose schedule for 10-year-old girls, subject to source verification at time of use.
 - Review malaria vaccine contacts and the 18-month contact before producing schedule-based messages.
 - Replace “This message is brought to you by the Ministry of Health” with a demonstration disclaimer.
-
