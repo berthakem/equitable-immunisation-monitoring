@@ -71,6 +71,7 @@ Turn transparent zero-dose evidence into a practical, review-ready outreach prio
 | Generate review-ready campaigns only | Demonstrates automation while preserving programme and communication oversight | — Pending |
 | Separate coverage signals from demand-barrier inputs | Avoids unsupported explanations and makes the analytical logic transparent | — Pending |
 | Link from Tangaza only after deployment | Ensures the portfolio points to a stable, independent project | — Pending |
+| Start with an independent Tangaza-related visual identity | Deep green, teal, warm paper, and amber provide continuity without making the tool look like another portfolio page; palette remains revisable after the first prototype | — Pending |
 
 ## Evolution
 
@@ -90,4 +91,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current users, feedback, and evidence.
 
 ---
-*Last updated: 2026-07-01 after project initialization*
+*Last updated: 2026-07-01 after initial visual-direction decision*

@@ -44,6 +44,7 @@ Decisions are logged in PROJECT.md.
 - Public evidence is supplemented only by visibly labelled demonstration data.
 - Campaign automation stops at human review.
 - RED/REC access and utilisation categories replace an opaque AI priority score.
+- Initial visual direction uses deep green, teal, warm paper, and amber, subject to revision after the first prototype.
 
 ### Pending Todos
 
@@ -65,5 +66,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-07-01  
-Stopped at: Project initialized and ready to plan Phase 1  
+Stopped at: Project initialized, visual direction selected, and ready to plan Phase 1  
 Resume file: None
