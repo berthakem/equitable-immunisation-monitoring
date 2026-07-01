@@ -45,6 +45,7 @@ Decisions are logged in PROJECT.md.
 - Campaign automation stops at human review.
 - RED/REC access and utilisation categories replace an opaque AI priority score.
 - Initial visual direction uses deep green, teal, warm paper, and amber, subject to revision after the first prototype.
+- Source-aligned English/Luganda scripts and the 2025 schedule image were received as demonstration inputs; neither is treated as approved campaign content.
 
 ### Pending Todos
 
@@ -54,6 +55,7 @@ None yet.
 
 - Dedicated Botpress bot and embed details will require manual setup during Phase 3.
 - Public report extraction may leave gaps that require synthetic demonstration values.
+- Draft scripts require schedule reconciliation, removal of unapproved Ministry attribution, and Luganda review before any non-demo use.
 
 ## Deferred Items
 
