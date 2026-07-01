@@ -10,10 +10,10 @@ The MVP is built as four vertical increments. It first establishes a trustworthy
 - Integer phases are planned milestone work.
 - Decimal phases are reserved for urgent insertions.
 
-- [ ] **Phase 1: Evidence to Priority** - Deliver transparent data, RED/REC calculations, and area comparison.
-- [ ] **Phase 2: Priority to Outreach Draft** - Convert selected barriers into editable, human-reviewed campaign packages.
-- [ ] **Phase 3: Guided Evidence Experience** - Add the grounded assistant and complete the accessible integrated experience.
-- [ ] **Phase 4: Presentation-Ready Release** - Verify, harden, deploy, and prepare the reliable live demonstration.
+- [x] **Phase 1: Evidence to Priority** - Deliver transparent data, RED/REC calculations, and area comparison. *(Built in prototype; responsive verification outstanding.)*
+- [x] **Phase 2: Priority to Outreach Draft** - Convert selected barriers into editable, human-reviewed campaign packages. *(Built in prototype; campaign-workflow tests outstanding.)*
+- [~] **Phase 3: Guided Evidence Experience** - Add the grounded assistant and complete the accessible integrated experience. *(Webchat embedded and knowledge pack authored; accessibility/cross-device verification and safety evaluation outstanding.)*
+- [ ] **Phase 4: Presentation-Ready Release** - Verify, harden, deploy, and prepare the reliable live demonstration. *(Deploy workflow + Pages base path in place; demo mode, backup assets, and confirmed live deployment outstanding.)*
 
 ## Phase Details
 
@@ -30,8 +30,8 @@ The MVP is built as four vertical increments. It first establishes a trustworthy
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Scaffold the application, visual system, source registry, dataset schema, validation, and tested calculations.
-- [ ] 01-02: Build the comparison overview, area detail, provenance surfaces, warnings, and responsive verification.
+- [x] 01-01: Scaffold the application, visual system, source registry, dataset schema, validation, and tested calculations.
+- [x] 01-02: Build the comparison overview, area detail, provenance surfaces, warnings, and responsive verification. *(Built; formal responsive/keyboard verification still pending — see Phase 4.)*
 
 ### Phase 2: Priority to Outreach Draft
 **Goal**: Users can provide barrier context and generate an editable outreach package that remains under human control.
@@ -46,8 +46,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Build barrier capture, evidence/scenario distinctions, and the reviewed campaign template engine.
-- [ ] 02-02: Build campaign editing, review gates, status tracking, persistence, reset, and workflow tests.
+- [x] 02-01: Build barrier capture, evidence/scenario distinctions, and the reviewed campaign template engine.
+- [~] 02-02: Build campaign editing, review gates, status tracking, persistence, reset, and workflow tests. *(Editing, review gate, status track, localStorage, and reset built; automated workflow tests still outstanding.)*
 
 ### Phase 3: Guided Evidence Experience
 **Goal**: Users can access a restricted evidence assistant inside a cohesive, accessible desktop and mobile application.
@@ -62,8 +62,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: Prepare the Botpress knowledge pack, system instructions, evaluation prompts, and manual setup guide.
-- [ ] 03-02: Integrate Webchat, finish navigation and accessibility, and verify the complete cross-device experience.
+- [x] 03-01: Prepare the Botpress knowledge pack, system instructions, evaluation prompts, and manual setup guide. *(Authored under botpress/; free-plan design uses website context instead of a Knowledge Base.)*
+- [~] 03-02: Integrate Webchat, finish navigation and accessibility, and verify the complete cross-device experience. *(Webchat embedded and nav built; accessibility, cross-device, and bot safety evaluation still outstanding.)*
 
 ### Phase 4: Presentation-Ready Release
 **Goal**: The independent application is publicly available and the complete workflow is reliable within the final presentation.
@@ -78,17 +78,19 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: Add demo mode, seed/reset controls, end-to-end tests, visual QA, and backup assets.
-- [ ] 04-02: Configure GitHub Pages, verify production, document the presentation path, and prepare the Tangaza link.
+- [~] 04-01: Add demo mode, seed/reset controls, end-to-end tests, visual QA, and backup assets. *(Seed/reset control built; end-to-end tests, visual QA, and backup assets outstanding.)*
+- [~] 04-02: Configure GitHub Pages, verify production, document the presentation path, and prepare the Tangaza link. *(Deploy workflow and Pages base path committed; production verification, presentation script, and Tangaza link outstanding.)*
 
 ## Progress
 
 **Execution Order:** Phase 1 → Phase 2 → Phase 3 → Phase 4
 
+Legend: `[x]` complete · `[~]` built, verification outstanding · `[ ]` not started
+
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Evidence to Priority | 0/2 | Not started | - |
-| 2. Priority to Outreach Draft | 0/2 | Not started | - |
-| 3. Guided Evidence Experience | 0/2 | Not started | - |
-| 4. Presentation-Ready Release | 0/2 | Not started | - |
+| 1. Evidence to Priority | 2/2 | Built — responsive verification outstanding | 2026-07-01 (prototype) |
+| 2. Priority to Outreach Draft | 1/2 | Built — workflow tests outstanding | - |
+| 3. Guided Evidence Experience | 1/2 | Built — a11y + bot safety eval outstanding | - |
+| 4. Presentation-Ready Release | 0/2 | Deploy scaffolding in place — hardening outstanding | - |
 

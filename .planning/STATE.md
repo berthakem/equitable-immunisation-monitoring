@@ -5,16 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-07-01)
 
 **Core value:** Turn transparent zero-dose evidence into a practical, review-ready outreach priority and action package.  
-**Current focus:** Phase 1 — Evidence to Priority
+**Current focus:** Phase 4 — Presentation-Ready Release (hardening the existing prototype)
 
 ## Current Position
 
-Phase: 1 of 4 (Evidence to Priority)  
-Plan: 0 of 2 in current phase  
-Status: Ready to plan  
-Last activity: 2026-07-01 — Free-plan Botpress workflow tested and published embed code received
+Phase: 4 of 4 (Presentation-Ready Release)  
+Plan: Phases 1–3 built in a working prototype; verification + hardening outstanding  
+Status: Prototype committed; reconciling toward verification and deployment  
+Last activity: 2026-07-01 — Committed working React/Vite prototype (monitoring + outreach + evidence + Botpress embed) and reconciled GSD tracking
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██████░░░░] ~60% (built, pending verification and deployment)
+
+**Outstanding work by phase:**
+- Phase 1: Responsive/keyboard verification of the overview.
+- Phase 2: Automated campaign-workflow tests (only calculation tests exist).
+- Phase 3: Accessibility + cross-device verification; bot safety evaluation.
+- Phase 4: Demo mode polish, end-to-end tests, backup assets, and confirmed live GitHub Pages deployment.
 
 ## Performance Metrics
 
@@ -53,15 +59,24 @@ Decisions are logged in PROJECT.md.
 - The guided area-to-barrier conversation passed its initial manual smoke test.
 - The public Botpress Webchat v3.6 embed snippet is stored in
   `botpress/embed-snippet.html` for frontend integration.
+- A working single-page React/Vite prototype (`src/App.tsx`, `src/data.ts`)
+  implements the monitoring, outreach, and evidence flows and embeds the
+  Botpress webchat; it was committed on 2026-07-01 as the project baseline.
+  Type-check, unit tests (3/3), and production build all pass.
+- GitHub Pages deployment is scaffolded: `.github/workflows/deploy.yml` and a
+  Pages-ready `base` path in `vite.config.ts`.
 
 ### Pending Todos
 
-None yet.
+- Add automated campaign-workflow tests (currently only calculation tests exist).
+- Verify accessibility and responsive/keyboard behaviour on desktop and mobile.
+- Complete the bot safety evaluation before the public demo.
+- Add demo backup assets (screenshots or short recording).
+- Confirm the production GitHub Pages deployment is live and correct.
 
 ### Blockers/Concerns
 
 - The full safety evaluation remains to be completed before the public demo.
-- Botpress frontend integration waits for the application HTML entry point.
 - Public report extraction may leave gaps that require synthetic demonstration values.
 - Draft scripts require schedule reconciliation, removal of unapproved Ministry attribution, and Luganda review before any non-demo use.
 
@@ -76,5 +91,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-07-01  
-Stopped at: Botpress free-plan workflow published; frontend integration is ready once the application shell exists
+Stopped at: Committed the working prototype baseline (monitoring + outreach + evidence + Botpress embed) and reconciled ROADMAP/STATE/PROJECT to reflect that Phases 1–3 are built and Phase 4 hardening remains. Next: verification, tests, bot safety eval, and confirmed deployment.
 Resume file: None
