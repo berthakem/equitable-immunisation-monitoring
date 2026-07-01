@@ -16,7 +16,6 @@ export function Research({ openBot }: { openBot: () => void }) {
     <>
       <section className="page-heading">
         <div>
-          <p className="eyebrow">Deep research &amp; text analysis</p>
           <h1>Research &amp; analysis</h1>
           <p>Synthesis of the published evidence base that guides the outreach workflow.</p>
         </div>

@@ -6,7 +6,6 @@ export function Evidence({ openBot }: { openBot: () => void }) {
     <>
       <section className="page-heading">
         <div>
-          <p className="eyebrow">Methods and safeguards</p>
           <h1>Evidence register</h1>
           <p>Definitions, sources and boundaries supporting this proof of concept.</p>
         </div>

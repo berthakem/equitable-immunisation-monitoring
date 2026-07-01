@@ -269,13 +269,40 @@ main {
 footer {
   grid-column: 2;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding: 18px 32px;
-  color: var(--muted);
-  background: #ffffff;
-  border-top: 1px solid var(--line);
+  color: #dbe8e3;
+  background: var(--green-900);
+  border-top: 3px solid var(--amber);
   font-size: 12px;
+}
+
+.footer-main span,
+.footer-contact span,
+.footer-contact a {
+  display: block;
+}
+
+.footer-main span:first-child {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer-sub {
+  margin-top: 2px;
+  color: #a9c2b8;
+}
+
+.footer-contact {
+  text-align: right;
+}
+
+.footer-contact a {
+  margin-top: 2px;
+  color: var(--amber);
+  font-weight: 600;
 }
 
 .page-heading {
@@ -286,18 +313,10 @@ footer {
   margin-bottom: 20px;
 }
 
-.page-heading p:not(.eyebrow) {
+.page-heading p {
   margin-top: 5px;
   color: var(--muted);
   font-size: 15px;
-}
-
-.eyebrow {
-  margin-bottom: 5px;
-  color: var(--teal);
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .period-block {
@@ -1257,10 +1276,6 @@ td small {
   line-height: 1.2;
 }
 
-.hero .eyebrow {
-  color: var(--amber);
-}
-
 .hero-lede {
   margin-top: 14px;
   color: #d7e7e0;
@@ -1763,6 +1778,10 @@ td small {
 
   footer {
     display: grid;
-    gap: 4px;
+    gap: 10px;
+  }
+
+  .footer-contact {
+    text-align: left;
   }
 }

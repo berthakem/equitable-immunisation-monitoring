@@ -40,7 +40,6 @@ export function Dashboard({
     <>
       <section className="page-heading">
         <div>
-          <p className="eyebrow">Routine immunisation equity</p>
           <h1>Monitoring dashboard</h1>
           <p>Access and continuation signals for three Uganda planning profiles.</p>
         </div>

@@ -19,7 +19,6 @@ export function Overview({
     <>
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">Equitable immunisation monitoring · Uganda</p>
           <h1>Turning transparent zero-dose evidence into a review-ready outreach plan.</h1>
           <p className="hero-lede">
             A focused demonstration for immunisation programme managers in three high-burden Uganda

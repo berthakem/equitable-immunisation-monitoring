@@ -116,8 +116,14 @@ function App() {
       </main>
 
       <footer>
-        <span>Equitable Immunisation Monitoring</span>
-        <span>Demonstration project · No personal health data</span>
+        <div className="footer-main">
+          <span>© Tangaza 2026 · Equitable Immunisation Monitoring</span>
+          <span className="footer-sub">Demonstration project · No personal health data</span>
+        </div>
+        <div className="footer-contact">
+          <span>Bertha Kembabazi</span>
+          <a href="mailto:kembertha348@gmail.com">kembertha348@gmail.com</a>
+        </div>
       </footer>
     </div>
   );

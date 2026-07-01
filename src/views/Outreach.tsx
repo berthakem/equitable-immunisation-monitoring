@@ -67,7 +67,6 @@ export function Outreach({
     <>
       <section className="page-heading">
         <div>
-          <p className="eyebrow">Priority to action</p>
           <h1>Outreach workspace</h1>
           <p>Prepare an English campaign package from a locally observed barrier.</p>
         </div>
