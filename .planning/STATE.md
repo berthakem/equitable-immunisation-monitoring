@@ -47,7 +47,9 @@ Decisions are logged in PROJECT.md.
 - Initial visual direction uses deep green, teal, warm paper, and amber, subject to revision after the first prototype.
 - Source-aligned English/Luganda scripts and the 2025 schedule image were received as demonstration inputs; neither is treated as approved campaign content.
 - A dedicated Botpress bot named `Equitable Immunisation Assistant` has been created.
-- Botpress will use one controlled knowledge base, an evidence-first Autonomous Node prompt, and English review-only outreach drafting.
+- The free-plan Botpress design uses no Knowledge Base. The website supplies the
+  evidence context, and a guided Autonomous Node turns user-confirmed findings
+  into English review-only outreach action packages.
 
 ### Pending Todos
 
@@ -55,7 +57,8 @@ None yet.
 
 ### Blockers/Concerns
 
-- Botpress knowledge upload, workflow configuration, testing, publication, and embed-code retrieval remain manual Phase 3 tasks.
+- Botpress prompt configuration, testing, publication, and embed-code retrieval
+  remain manual Phase 3 tasks.
 - Public report extraction may leave gaps that require synthetic demonstration values.
 - Draft scripts require schedule reconciliation, removal of unapproved Ministry attribution, and Luganda review before any non-demo use.
 

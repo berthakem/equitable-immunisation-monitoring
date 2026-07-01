@@ -1,4 +1,7 @@
-# Step-by-Step Botpress Setup and Publication
+# Optional Knowledge-Based Botpress Setup and Publication
+
+> This version requires Knowledge Base access. For the recommended no-upload
+> version, use `FREE-PLAN-GUIDE.md`.
 
 These instructions target the current Botpress Studio workflow. Interface wording may change slightly.
 
