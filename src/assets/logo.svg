@@ -1,0 +1,45 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Equitable Immunisation Monitoring emblem">
+  <!-- Outer ring: two arcs with gaps -->
+  <path d="M50 6 A44 44 0 0 1 92 62" stroke="#1f7a54" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M88 72 A44 44 0 0 1 12 78" stroke="#2b7a78" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M8 66 A44 44 0 0 1 40 8" stroke="#174a3a" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Growth line of dots (ascending) -->
+  <polyline points="22,40 34,33 46,36 58,26 70,30 82,20" stroke="#1f7a54" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22" cy="40" r="3" fill="#2b7a78"/>
+  <circle cx="34" cy="33" r="3" fill="#1f7a54"/>
+  <circle cx="46" cy="36" r="3" fill="#e08a2e"/>
+  <circle cx="58" cy="26" r="3" fill="#1f7a54"/>
+  <circle cx="70" cy="30" r="3" fill="#2b7a78"/>
+  <circle cx="82" cy="20" r="3.4" fill="#e08a2e"/>
+
+  <!-- Three community figures with raised arms -->
+  <!-- Left (dark green) -->
+  <g fill="#174a3a">
+    <circle cx="30" cy="52" r="6"/>
+    <path d="M30 60 c-9 0 -13 8 -13 16 c0 4 3 6 6 6 h14 c3 0 6 -2 6 -6 c0 -8 -4 -16 -13 -16 z"/>
+    <path d="M22 60 l-8 -8 3 -3 8 8 z"/>
+    <path d="M38 60 l8 -8 -3 -3 -8 8 z"/>
+  </g>
+  <!-- Right (orange) -->
+  <g fill="#e08a2e">
+    <circle cx="70" cy="52" r="6"/>
+    <path d="M70 60 c-9 0 -13 8 -13 16 c0 4 3 6 6 6 h14 c3 0 6 -2 6 -6 c0 -8 -4 -16 -13 -16 z"/>
+    <path d="M62 60 l-8 -8 3 -3 8 8 z"/>
+    <path d="M78 60 l8 -8 -3 -3 8 8 z" transform="translate(-2,0)"/>
+  </g>
+
+  <!-- Center: shield with medical cross (green) -->
+  <path d="M50 46 c7 3 13 3 13 3 v13 c0 10 -8 15 -13 18 c-5 -3 -13 -8 -13 -18 v-13 c0 0 6 0 13 -3 z" fill="#1f7a54" stroke="#ffffff" stroke-width="2"/>
+  <g fill="#ffffff">
+    <rect x="47" y="55" width="6" height="18" rx="1.5"/>
+    <rect x="41" y="61" width="18" height="6" rx="1.5"/>
+  </g>
+
+  <!-- Syringe accent (bottom right) -->
+  <g stroke="#2b7a78" stroke-width="2.6" stroke-linecap="round">
+    <line x1="66" y1="84" x2="82" y2="68"/>
+    <line x1="72" y1="72" x2="78" y2="78"/>
+  </g>
+  <line x1="82" y1="68" x2="88" y2="62" stroke="#e08a2e" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

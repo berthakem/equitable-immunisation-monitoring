@@ -8,3 +8,4 @@ dist/
 # Compiled config output (source is vite.config.ts)
 vite.config.js
 vite.config.d.ts
+*.timestamp-*.mjs

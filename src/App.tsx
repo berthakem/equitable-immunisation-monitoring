@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BarChart3, Bot, FileText, FlaskConical, Home, Megaphone, RefreshCw } from "lucide-react";
 import { CampaignStatus, DistrictName } from "./data";
+import logoUrl from "./assets/logo.svg";
 import { Overview } from "./views/Overview";
 import { Dashboard } from "./views/Dashboard";
 import { Research } from "./views/Research";
@@ -60,7 +61,7 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <button className="brand" onClick={() => goTo("overview")} aria-label="Open project overview">
-          <span className="brand-mark" aria-hidden="true">EI</span>
+          <img className="brand-mark" src={logoUrl} alt="" aria-hidden="true" />
           <span>
             <strong>Equitable Immunisation Monitoring</strong>
             <small>Uganda demonstration</small>
